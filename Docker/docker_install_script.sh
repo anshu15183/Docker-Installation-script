@@ -1,5 +1,15 @@
 #!/bin/bash
 
+cat <<'EOF'
+________                       __                                   _________            __                    
+\______ \     ____     ____   |  | __   ____   _______             /   _____/   ____   _/  |_   __ __  ______  
+ |    |  \   /  _ \  _/ ___\  |  |/ / _/ __ \  \_  __ \   ______   \_____  \  _/ __ \  \   __\ |  |  \ \____ \ 
+ |    `   \ (  <_> ) \  \___  |    <  \  ___/   |  | \/  /_____/   /        \ \  ___/   |  |   |  |  / |  |_> >
+/_______  /  \____/   \___  > |__|_ \  \___  >  |__|              /_______  /  \___  >  |__|   |____/  |   __/ 
+        \/                \/       \/      \/                             \/       \/                  |__|    
+
+EOF
+        
 # Uninstall old versions (if any)
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do
     sudo apt-get remove -y $pkg
