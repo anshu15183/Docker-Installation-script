@@ -18,6 +18,14 @@ This script helps you install the latest Docker components cleanly and efficient
 
 ---
 
+### 🔁 Run the Script Directly from GitHub
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/your-username/your-repo/main/docker_install_script.sh | bash
+```
+
+---
+
 ## Prerequisites
 
 - Ubuntu system (20.04, 22.04 or later)
