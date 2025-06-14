@@ -4,7 +4,7 @@ This script helps you install the latest Docker components cleanly and efficient
 
 ---
 
-## 🧰 What This Script Does
+## What This Script Does
 
 - Removes older versions of Docker and related tools.
 - Adds Docker’s official GPG key and APT repository.
@@ -18,16 +18,7 @@ This script helps you install the latest Docker components cleanly and efficient
 
 ---
 
-## 📂 Files Included
-
-| File                    | Description                                     |
-|-------------------------|-------------------------------------------------|
-| `docker_install_script.sh` | Shell script to automate Docker installation |
-| `README.md`             | Documentation (this file)                      |
-
----
-
-## 📋 Prerequisites
+## Prerequisites
 
 - Ubuntu system (20.04, 22.04 or later)
 - `sudo` privileges
@@ -35,7 +26,7 @@ This script helps you install the latest Docker components cleanly and efficient
 
 ---
 
-## ⚙️ How to Use
+## How to Use
 
 ### Step 1: Download the Script
 
@@ -55,7 +46,7 @@ Step 3: Run the Script
 ./docker_install_script.sh
 ```
 
-🧪 Verify Docker Installation
+### Verify Docker Installation
 
 ```bash
 docker run hello-world
