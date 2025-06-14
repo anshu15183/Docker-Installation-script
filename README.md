@@ -60,3 +60,11 @@ Step 3: Run the Script
 ```bash
 docker run hello-world
 ```
+You should see a success message indicating Docker is working correctly.
+
+### Optional: Run Docker as Non-root User
+To use Docker without sudo:
+
+```bash
+sudo usermod -aG docker $USER && newgrp docker
+```
