@@ -7,9 +7,8 @@ This repository provides automated installation scripts for key DevOps tools usi
 
 ## 🚀 Available Installers
 
-### 📦 Docker Installation
-
-### ⚙️ Jenkins Installation
+### 1. Docker Installation
+### 2. Jenkins Installation
 
 ---
 
