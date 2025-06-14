@@ -1,6 +1,6 @@
 # 🛠️ DevOps Installation Scripts Repository
 
-Welcome to the **DevOps Installation Scripts** repository by **Anshu Singh**.  
+
 This repository provides automated installation scripts for key DevOps tools using Bash.
 
 ---
