@@ -20,9 +20,15 @@ echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc] https://pkg.jenkins.
 sudo apt-get update
 sudo apt-get install -y jenkins
 
-echo "Jenkins installed successfully
+echo "Jenkins installed successfully"
 
-echo "🔐 Configuring firewall to allow Jenkins access..."
+# Start Jenkins
+sudo systemctl start jenkins
+
+# Enable auto-start on boot
+sudo systemctl enable jenkins
+
+echo "Configuring firewall to allow Jenkins access..."
 
 if command -v ufw >/dev/null 2>&1; then
     echo "➡️ UFW detected: allowing port 8080..."
