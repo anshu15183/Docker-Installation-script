@@ -29,6 +29,6 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 # Run a test Docker container
 sudo docker run hello-world
 
-
+sudo usermod -aG docker $USER && newgrp docker
 
 echo "Docker installed successfully"
